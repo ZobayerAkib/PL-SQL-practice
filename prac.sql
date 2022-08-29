@@ -51,9 +51,9 @@ BEGIN
    FINDleapyear(A);
 
    IF(A=1) THEN
-    dbms_output.put_line( A || ' LEAP YEAR ' ); 
+    dbms_output.put_line(  ' LEAP YEAR ' ); 
 	ELSE
-	dbms_output.put_line( A || ' NOT LEAP YEAR ' ); 
+	dbms_output.put_line( ' NOT LEAP YEAR ' ); 
 	END IF;
    
 END; 
